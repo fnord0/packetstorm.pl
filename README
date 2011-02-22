@@ -1,0 +1,15 @@
+.::[ packetstormsecurity.net exploit archive 133ch3r v1.0 ]::.
+
+  USAGE: ./packetstorm.pl [<directory>|-s <search>]
+
+        COMMAND LINE ARGUMENTS          *ROOT level access REQUIRED*
+        DEFAULT         => download all packetstormsecurity.net exploit archives to '/pentest/exploits/packetstorm'
+        <folder>        => place all packetstormsecurity.net exploit archives in specified folder
+        -s <search>     => search local exploit archives for specific search string (/pentest/exploits/packetstorm)
+        --help          => displays help
+        --version       => displays version information
+
+                EXAMPLEs:  packetstorm.pl
+                           packetstorm.pl /tmp
+                           packetstorm.pl -s ettercap
+                           packetstorm.pl -s "phpmyadmin 2."
